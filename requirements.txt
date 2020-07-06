@@ -1,0 +1,10 @@
+jupyter
+arxiv
+pandas
+numpy
+matplotlib
+requests
+tabulate
+iso639
+scipy
+langdetect
