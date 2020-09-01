@@ -1,26 +1,101 @@
-id	preprint venue	preprint link	num x-ling-cit pre	published venue	puiblished link	num x-ling-cit pub	langs	comment
-1	arXiv	https://arxiv.org/pdf/1706.04462.pdf	4	Nonlinear Analysis	https://doi.org/10.1016/J.NA.2018.01.004	4	fr/de	
-2	arXiv	https://arxiv.org/pdf/0906.0199.pdf	1	Journal of Combinatorial Theory, Series A	https://doi.org/10.1016/j.jcta.2009.11.001	1	ja	
-3	arXiv	https://arxiv.org/abs/1501.02596	1	Topological Methods in Nonlinear Analysis	http://dx.doi.org/10.12775/TMNA.2016.089 / https://projecteuclid.org/euclid.tmna/1507946569	1	ru	
-4	arXiv	https://arxiv.org/pdf/1506.06518.pdf	1	Czechoslovak Mathematical Journal	https://doi.org/10.21136/CMJ.2017.0393-15 	1*	pl	original title + English translation in brackets + “(in Polish)” in preprint, but only English translation of title in published version
-5	arXiv	https://arxiv.org/pdf/1511.00350.pdf	2	Electronic Journal of Combinatorics	https://doi.org/10.37236/6179	2*	de/ru	published version missing “(in German)” but not “(in Russian)”, presumably to fit within a page limit
-6	arXiv	https://arxiv.org/pdf/math/0411280.pdf	1	Advances in Applied Mathematics	https://authorservices.springernature.com/translation/	1	ja	also has reference items in German and French (but not marked w/ “(in <Language>)”)
-7	arXiv	https://arxiv.org/pdf/1802.06575.pdf	1	ACM International Conference on Hybrid Systems: Computation and Control	https://doi.org/10.1145/3302504.3311796	1	ru	almost identical file
-8	arXiv	https://arxiv.org/pdf/1712.08840.pdf	1	Mathematische Annalen	https://doi.org/10.1007/S00208-018-01801-4	1	ru	fun fact: co-authored by Terence Tao
-9	arXiv	https://arxiv.org/pdf/astro-ph/0608194.pdf	1	Chinese Journal of Astronomy and Astrophysics	https://doi.org/10.1088/1009-9271/6/S2/29	1	ru	
-10	arXiv	https://arxiv.org/pdf/0909.4844.pdf	2	Bulletin of the American Mathematical Society	https://doi.org/10.1090/S0273-0979-09-01277-4	2	ru	also has reference item in German ([185]) (but not marked w/ “(in <Language>)”)
-11	arXiv	https://arxiv.org/pdf/1312.1794v2.pdf	1	Journal of The Royal Statistical Society Series A-statistics in Society	https://doi.org/10.1111/RSSA.12124	1	ja	X-ling refitem from arXiv v2 onward (not in v1)
-12	arXiv	https://arxiv.org/pdf/1105.4238.pdf	4	Linear Algebra and its Applications	https://doi.org/10.1016/J.LAA.2011.08.008	4	zh-cn	
-13	arXiv	https://arxiv.org/pdf/1808.05514.pdf	1	The European Physical Journal C	https://doi.org/10.1140/EPJC/S10052-019-6659-X	1	ru	example of transcribed (not translated) non-English title
-14	arXiv	https://arxiv.org/pdf/1806.10307.pdf	1	European Signal Processing Conference (EUSIPCO)	https://doi.org/10.23919/EUSIPCO.2018.8553246	1	ja	
-15	arXiv	https://arxiv.org/pdf/1211.2224.pdf	2	Mathematical Methods in The Applied Sciences	https://doi.org/10.1002/mma.3290	3	ru	one x-ling ref “w/o “(In <Language>)” in preprint, then w/ marker and reference to published English translation in journal version; also has reference item in French (but not marked w/ “(in <Language>)”)
-16	arXiv	https://arxiv.org/pdf/1710.03198.pdf	1	Journal of Pure and Applied Algebra	https://doi.org/10.1016/j.jpaa.2017.06.006	1	ru	
-17	arXiv	https://arxiv.org/pdf/1709.01317.pdf	1	IEEE Transactions on Signal and Information Processing over Networks	https://doi.org/10.1109/TSIPN.2018.2846183	1	ru	
-18	arXiv	https://arxiv.org/pdf/cond-mat/0306262.pdf	1	IEICE transactions on information and systems	https://search.ieice.org/bin/summary.php?id=e87-d_3_726	1*	ja	published version behind paywall (https://search.ieice.org/bin/summary.php?id=e87-d_3_726)  and semantic scholar version sourced from arXiv preprint
-19	arXiv	https://arxiv.org/pdf/1410.5804.pdf	1	Mathematical Research Letters	https://dx.doi.org/10.4310/MRL.2016.v23.n3.a10	1	ru	
-20	arXiv	https://arxiv.org/pdf/1402.4583.pdf	1	International Journal of Number Theory	https://doi.org/10.1142/S179304211450050X	1	ru	
-21	arXiv	https://arxiv.org/abs/math/0202170	1	Journal of The London Mathematical Society	https://doi.org/10.1112/S0024610702003150	1	el	el=Greek
-22	arXiv	https://arxiv.org/pdf/1506.07199.pdf	2	Chinese Annals of Mathematics	https://doi.org/10.1007/S11401-017-1089-2	2	fr/ru	also has reference item in French ([58]) (but not marked w/ “(in <Language>)”)
-23	arXiv	https://arxiv.org/pdf/1705.06710.pdf	1	Computational Methods and Function Theory	https://doi.org/10.1007/S40315-017-0230-2	1	ru	
-24	arXiv	https://arxiv.org/pdf/1107.0364v1.pdf	1	Linear Algebra and its Applications	https://doi.org/10.1016/j.laa.2011.11.027	3*	zh-cn(/ru)	two “(in Russian)” reference section entries only in journal version
-25	arXiv	https://arxiv.org/pdf/1702.06625.pdf	7	Ergodic Theory and Dynamical Systems	https://doi.org/10.1017/ETDS.2018.136	11*	ru/fr/de	published verision has 4 more citations *marked* “(in French)” where in the preprint the marker was just missing but the entries were there
+id	preprint venue	preprint link	num x-ling-cit pre	published venue	puiblished link	num x-ling-cit pub	Δ	Δmaker	non-text x-ling cit	langs	comment
+1	arXiv	https://arxiv.org/pdf/1706.04462.pdf	4	Nonlinear Analysis	https://doi.org/10.1016/J.NA.2018.01.004	4				fr/de	
+2	arXiv	https://arxiv.org/pdf/0906.0199.pdf	1	Journal of Combinatorial Theory, Series A	https://doi.org/10.1016/j.jcta.2009.11.001	1				ja	
+3	arXiv	https://arxiv.org/abs/1501.02596	1	Topological Methods in Nonlinear Analysis	http://dx.doi.org/10.12775/TMNA.2016.089 / https://projecteuclid.org/euclid.tmna/1507946569	1				ru	
+4	arXiv	https://arxiv.org/pdf/1506.06518.pdf	1	Czechoslovak Mathematical Journal	https://doi.org/10.21136/CMJ.2017.0393-15 	1*		-1		pl	original title + English translation in brackets + “(in Polish)” in preprint, but only English translation of title in published version
+5	arXiv	https://arxiv.org/pdf/1511.00350.pdf	2	Electronic Journal of Combinatorics	https://doi.org/10.37236/6179	2*		-1		de/ru	published version missing “(in German)” but not “(in Russian)”, presumably to fit within a page limit
+6	arXiv	https://arxiv.org/pdf/math/0411280.pdf	1	Advances in Applied Mathematics	https://authorservices.springernature.com/translation/	1				ja	also has reference items in German and French (but not marked w/ “(in <Language>)”)
+7	arXiv	https://arxiv.org/pdf/1802.06575.pdf	1	ACM International Conference on Hybrid Systems: Computation and Control	https://doi.org/10.1145/3302504.3311796	1				ru	almost identical file
+8	arXiv	https://arxiv.org/pdf/1712.08840.pdf	1	Mathematische Annalen	https://doi.org/10.1007/S00208-018-01801-4	1				ru	fun fact: co-authored by Terence Tao
+9	arXiv	https://arxiv.org/pdf/astro-ph/0608194.pdf	1	Chinese Journal of Astronomy and Astrophysics	https://doi.org/10.1088/1009-9271/6/S2/29	1				ru	
+10	arXiv	https://arxiv.org/pdf/0909.4844.pdf	2	Bulletin of the American Mathematical Society	https://doi.org/10.1090/S0273-0979-09-01277-4	2				ru	also has reference item in German ([185]) (but not marked w/ “(in <Language>)”)
+11	arXiv	https://arxiv.org/pdf/1312.1794v2.pdf	1	Journal of The Royal Statistical Society Series A-statistics in Society	https://doi.org/10.1111/RSSA.12124	1				ja	X-ling refitem from arXiv v2 onward (not in v1)
+12	arXiv	https://arxiv.org/pdf/1105.4238.pdf	4	Linear Algebra and its Applications	https://doi.org/10.1016/J.LAA.2011.08.008	4				zh-cn	
+13	arXiv	https://arxiv.org/pdf/1808.05514.pdf	1	The European Physical Journal C	https://doi.org/10.1140/EPJC/S10052-019-6659-X	1				ru	example of transcribed (not translated) non-English title
+14	arXiv	https://arxiv.org/pdf/1806.10307.pdf	1	European Signal Processing Conference (EUSIPCO)	https://doi.org/10.23919/EUSIPCO.2018.8553246	1				ja	
+15	arXiv	https://arxiv.org/pdf/1211.2224.pdf	2	Mathematical Methods in The Applied Sciences	https://doi.org/10.1002/mma.3290	3		1		ru	one x-ling ref “w/o “(In <Language>)” in preprint, then w/ marker and reference to published English translation in journal version; also has reference item in French (but not marked w/ “(in <Language>)”)
+16	arXiv	https://arxiv.org/pdf/1710.03198.pdf	1	Journal of Pure and Applied Algebra	https://doi.org/10.1016/j.jpaa.2017.06.006	1				ru	
+17	arXiv	https://arxiv.org/pdf/1709.01317.pdf	1	IEEE Transactions on Signal and Information Processing over Networks	https://doi.org/10.1109/TSIPN.2018.2846183	1				ru	
+18	arXiv	https://arxiv.org/pdf/cond-mat/0306262.pdf	1	IEICE transactions on information and systems	https://search.ieice.org/bin/summary.php?id=e87-d_3_726	1*				ja	published version behind paywall (https://search.ieice.org/bin/summary.php?id=e87-d_3_726)  and semantic scholar version sourced from arXiv preprint
+19	arXiv	https://arxiv.org/pdf/1410.5804.pdf	1	Mathematical Research Letters	https://dx.doi.org/10.4310/MRL.2016.v23.n3.a10	1				ru	
+20	arXiv	https://arxiv.org/pdf/1402.4583.pdf	1	International Journal of Number Theory	https://doi.org/10.1142/S179304211450050X	1				ru	
+21	arXiv	https://arxiv.org/abs/math/0202170	1	Journal of The London Mathematical Society	https://doi.org/10.1112/S0024610702003150	1				el	el=Greek
+22	arXiv	https://arxiv.org/pdf/1506.07199.pdf	2	Chinese Annals of Mathematics	https://doi.org/10.1007/S11401-017-1089-2	2				fr/ru	also has reference item in French ([58]) (but not marked w/ “(in <Language>)”)
+23	arXiv	https://arxiv.org/pdf/1705.06710.pdf	1	Computational Methods and Function Theory	https://doi.org/10.1007/S40315-017-0230-2	1				ru	
+24	arXiv	https://arxiv.org/pdf/1107.0364v1.pdf	1	Linear Algebra and its Applications	https://doi.org/10.1016/j.laa.2011.11.027	3*	2			zh-cn(/ru)	two “(in Russian)” reference section entries only in journal version
+25	arXiv	https://arxiv.org/pdf/1702.06625.pdf	7	Ergodic Theory and Dynamical Systems	https://doi.org/10.1017/ETDS.2018.136	11*		4		ru/fr/de	published verision has 4 more citations *marked* “(in French)” where in the preprint the marker was just missing but the entries were there
+26	arXiv	https://arxiv.org/pdf/1705.00999.pdf	1	Dynamics of Partial Differential Equations	https://dx.doi.org/10.4310/DPDE.2019.v16.n3.a1	0	-1		1	ru	x-ling-cit in preprint only in reference section, not referenced in text; also has reference items in German and French (but not marked w/ “(in <Language>)”)
+27	arXiv	https://arxiv.org/pdf/astro-ph/9806320.pdf	1	Astronomy and Physics	http://aa.springer.de/papers/9343002/2300317.pdf	1				ru	
+28	arXiv	https://arxiv.org/pdf/1009.5692.pdf	1	Annali Della Scuola Normale Superiore Di Pisa-classe Di Scienze	http://annaliscienze.sns.it/index.php?page=Article&id=316	1				ru	also has reference items in German and French (but not marked w/ “(in <Language>)”)
+29	arXiv	https://arxiv.org/pdf/1004.3023v5.pdf	2	Communications in Theoretical Physics	https://doi.org/10.1088/0253-6102/57/6/04	2				zh-cn	
+30	arXiv	https://arxiv.org/pdf/1411.6495v2.pdf	3	Rocky Mountain Journal of Mathematics	https://doi.org/10.1216/RMJ-2016-46-5-1405	3*		-3		ru	all three “(in Russian)” markers missing in Journal version; two out of three “English translation in” notes turned into “(in English)”, third presumably omitted for space reasons
+31	arXiv	https://arxiv.org/pdf/1207.0834.pdf	1	American Mathematical Monthly	https://doi.org/10.4169/amer.math.monthly.120.03.199	1		-1		ru	also contains unmarked citation to a 1886 Danish publication in both verions; published version missing “(in Russian)” marker
+32	arXiv	https://arxiv.org/pdf/1505.00075.pdf	1	IEEE/ACM Transactions on Computational Biology and Bioinformatics	https://doi.org/10.1109/tcbb.2015.2497227	1				zh-cn	
+33	arXiv	https://arxiv.org/pdf/1708.01284.pdf	1	Journal of Graph Theory	https://doi.org/10.1002/jgt.22435	1				hu	
+34	arXiv	https://arxiv.org/pdf/1708.08415.pdf	1	Siam Journal on Mathematical Analysis	https://doi.org/10.1137/18M1234916	1				ru	also has reference items in German and French (but not marked w/ “(in <Language>)”)
+35	arXiv	https://arxiv.org/pdf/cond-mat/0106468.pdf	1	Physics-Uspekhi	http://dx.doi.org/10.1070/PU2003v046n02ABEH001077	1		-1		ru	published version missing marker
+36	arXiv	https://arxiv.org/pdf/1703.10718.pdf	2	Journal of the European Mathematical Society	https://doi.org/10.4171/JEMS/956	2				ru	
+37	arXiv	https://arxiv.org/pdf/1712.07063.pdf	1	Lobachevskii Journal of Mathematics	https://doi.org/10.1134/S1995080218050086	1		-1		ru	published version missing marker
+38	arXiv	https://arxiv.org/pdf/0911.4459.pdf	7	Discussiones Mathematicae Graph Theory	http://dx.doi.org/10.7151/dmgt.1551	7		-1		ru/fr/dk	published version missing “(in French)” marker but includes Russian and Danish one
+39	arXiv	https://arxiv.org/pdf/0904.0846.pdf	1	International Mathematics Research Notices	https://doi.org/10.1093/imrn/rnp135	1				ja	marker style changed from round to square brackets
+40	arXiv	https://arxiv.org/pdf/0909.5250.pdf	1	Asian Journal of Mathematics	https://dx.doi.org/10.4310/AJM.2010.v14.n3.a4	0	-1		1	ja	x-ling-cit in preprint only in reference section, not referenced in text
+41	arXiv	https://arxiv.org/pdf/math/0602579v1	4	Siberian Mathematical Journal	https://doi.org/10.1007/s11202-006-0081-y	2	-2	-4		ru/fr	two refsecitems which referred to Russian original + English translation are missing ref to original in published version; all four references w/o markers in published version
+42	arXiv	https://arxiv.org/pdf/1207.3488.pdf	1	Communications in Algebra	https://doi.org/10.1080/00927872.2013.878838	1				ru	
+43	arXiv	https://arxiv.org/pdf/cond-mat/0401213.pdf	1	Acta Physica Polonica B	https://www.actaphys.uj.edu.pl/R/35/5/1583	1				pl	
+44	arXiv	https://arxiv.org/pdf/1204.2953v1.pdf	1	Discussiones Mathematicae. Differential Inclusions, Control and Optimization	http://dx.doi.org/10.7151/dmdico.1178	1				ru	full PDF accessible at: http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.bwnjournal-article-doi-10_7151_dmdico_1178/c/dmdico.1178
+45	arXiv	https://arxiv.org/pdf/math/0411300.pdf	2	Astérisque	http://www.numdam.org/item/AST_2006__309__R1_0/	2				ja	marker style changed from round to no brackets
+46	arXiv	https://arxiv.org/pdf/1701.00269.pdf	1	Combinatorica	https://doi.org/10.1007/s00493-018-3765-6	1				hu	
+47	arXiv	https://doi.org/10.1007/s00493-018-3765-6	1	Journal de Mathématiques Pures et Appliquées	https://dx.doi.org/10.1016%2Fj.matpur.2013.11.012	1				ru	
+48	arXiv	https://arxiv.org/pdf/1409.6465.pdf	1	International Journal of Geometric Methods in Modern Physics	https://dx.doi.org/10.1142%2FS0219887816500535	1				ru	
+49	arXiv	https://arxiv.org/pdf/0905.1994.pdf	4	Advances in Mathematics	https://doi.org/10.1016/j.aim.2009.11.008	4				ru	
+50	arXiv	https://arxiv.org/pdf/1807.02790.pdf	6	Journal of Global Optimization	https://doi.org/10.1007/s10898-018-0729-8	6				ru	
+51	arXiv	https://arxiv.org/pdf/cond-mat/0412476.pdf	1	New Journal of Physics	https://doi.org/10.1088/1367-2630/7/1/036	1				pl	
+52	arXiv	https://arxiv.org/pdf/0709.3021v1.pdf	3	Journal of Algebra	https://doi.org/10.1016/j.jalgebra.2008.06.015	3				ru/it	
+53	arXiv	https://arxiv.org/pdf/0808.3244.pdf	1	Discrete Mathematics	https://doi.org/10.1016/j.disc.2009.09.001	1				ru	
+54	arXiv	https://arxiv.org/pdf/1411.7742.pdf	8	Nuclear Science and Techniques	https://doi.org/10.1007/s41365-016-0019-4	9*	1	6		zh-cn	1 new, 6 additionally marked in publ. version, 1 *falsely* additionally marked in publ. version
+55	arXiv	https://arxiv.org/pdf/1204.0207v1.pdf	4	Monatshefte für Mathematik	https://doi.org/10.1007/s00605-015-0787-7	5	1			ru	also has reference items in German and French (but not marked w/ “(in <Language>)”)
+56	arXiv	https://arxiv.org/pdf/math/9805006.pdf	1	Journal of Pure and Applied Algebra	https://doi.org/10.1016/S0022-4049(00)00004-9	1*				ja	marker missing in publ. version, x-ling cit to a piece of software that at the time of evaluation also has an English language documentation 
+57	arXiv	https://arxiv.org/pdf/1108.1671v1.pdf	2	Algebra Universalis	https://doi.org/10.1007/s00012-013-0259-7	2				ru	
+58	arXiv	https://arxiv.org/pdf/1610.05730.pdf	1	Discrete Mathematics	https://doi.org/10.1016/j.disc.2017.10.006	0	-1		1	es	x-ling-cit in preprint only in reference section, not referenced in text
+59	arXiv	https://arxiv.org/pdf/1709.06419.pdf	3	Symmetry	https://doi.org/10.3390/sym12030352	2	-1			ru	
+60	arXiv	https://arxiv.org/pdf/1202.2279.pdf	1	Monatshefte für Mathematik	https://doi.org/10.1007/s00605-015-0769-9	1				ru	
+61	arXiv	https://arxiv.org/pdf/1708.07927.pdf	1	Lobachevskii Journal of Mathematics	https://doi.org/10.1134/S1995080218020063	1*		-1		ru	marker missing in publ. version
+62	arXiv	https://arxiv.org/pdf/1408.0976.pdf	1	Foundations of Computer Science	https://doi.org/10.1109/FOCS.2014.18	1				ru	
+63	arXiv	https://arxiv.org/pdf/1103.3372.pdf	1	Mathematics in Computer Science	https://doi.org/10.1007/s11786-012-0133-6	1				ru	
+64	arXiv	https://arxiv.org/pdf/1306.3479.pdf	2	Operations Research and Decisions	https://dx.doi.org/10.5277/ord150302	2				pl	
+65	arXiv	https://arxiv.org/pdf/1710.01530.pdf	2	Journal of Integrable Systems	https://doi.org/10.1093/integr/xyy014	2				ru	
+66	arXiv	https://arxiv.org/pdf/1709.06694v1.pdf	1*	Mathematics of Computation	https://doi.org/10.1090/mcom/3483	0				ru	preprint only contains x-ling-cit in version 1 (not from version 2-4)
+67	arXiv	https://arxiv.org/pdf/1210.5476v1.pdf	1	Journal of Mathematical Sciences	https://doi.org/10.1007/s10958-013-1646-5	1*		-1		ru	marker missing in publ. version
+68	arXiv	https://arxiv.org/pdf/1806.04842.pdf	1	Applied Numerical Mathematics	https://doi.org/10.1016/j.apnum.2019.02.001	1				zh-cn	
+69	arXiv	https://arxiv.org/pdf/1811.09892.pdf	1	Journal of Functional Analysis	https://doi.org/10.1016/j.jfa.2019.108349	1				ru	
+70	arXiv	https://arxiv.org/pdf/1804.02565.pdf	2	Pacific Journal of Mathematics	https://doi.org/10.2140/pjm.2019.302.353	2*		1		ru	publ. vers. w/ one additional marker
+71	arXiv	https://arxiv.org/pdf/1103.0804.pdf	2	Topology and its Applications	https://doi.org/10.1016/j.topol.2011.10.019	2				ru	
+72	arXiv	https://arxiv.org/pdf/1311.7271.pdf	1	Transactions of the American Mathematical Society	https://doi.org/10.1090/tran6682	1				zh-cn	
+73	arXiv	https://arxiv.org/pdf/1505.04116.pdf	1	Annals of Physics	https://doi.org/10.1016/j.aop.2015.07.005	0	-1		1		x-ling-cit in preprint only in reference section, not referenced in text
+74	arXiv	https://arxiv.org/pdf/1507.03240.pdf	2	Dynamic Games and Applications	https://doi.org/10.1007/s13235-015-0175-x	2				ru	
+75	arXiv	https://arxiv.org/pdf/1402.5409v6.pdf	3	Semigroup Forum	https://doi.org/10.1007/s00233-015-9708-2	3				ru/fr	
+76	arXiv	https://arxiv.org/pdf/1404.0653.pdf	1	Computational Complexity	https://doi.org/10.1007/s00037-015-0109-4	1*		-1		de	marker missing in publ. version
+77	arXiv	https://arxiv.org/pdf/math/0504504v1.pdf	1	Mathematische Zeitschrift	https://doi.org/10.1007/s00209-007-0242-0	1				ru	
+78	arXiv	https://arxiv.org/pdf/1103.1934v1.pdf	1	Combinatorics, Probability & Computing	https://doi.org/10.1017/S0963548311000563	1				ru	
+79	arXiv	https://arxiv.org/pdf/1403.7866v2.pdf	1	Statistical Inference for Stochastic Processes	https://doi.org/10.1007/s11203-014-9109-2	1				ru	
+80	arXiv	https://arxiv.org/pdf/1507.02375.pdf	2	Proceedings of The London Mathematical Society	https://doi.org/10.1112/plms.12002	2		1		ru	publ. vers. w/ one additional marker
+81	arXiv	https://arxiv.org/pdf/0906.4815.pdf	2	Journal of The Institute of Mathematics of Jussien	https://doi.org/10.1017/s147474800900019x	2				ru	
+82	arXiv	https://arxiv.org/pdf/math/9911182.pdf	9	Journal of Functional Analysis	https://doi.org/10.1006/jfan.2001.3751	12	3			ru	
+83	arXiv	https://arxiv.org/pdf/1712.02962.pdf	1	 Journal of The Franklin Institute-engineering and Applied Mathematics	https://doi.org/10.1016/j.jfranklin.2018.02.015	1				zh-cn	
+84	arXiv	https://arxiv.org/pdf/1701.08276.pdf	3	Novi Sad Journal of Mathematics	https://doi.org/10.30755/nsjom.06997	1	-2	-1		uk/ru	1 Ukrainian missing, 1 Ukranian kept but Marker removed, Russian citied in origial and transl. vers. in preprint but only transl. in publ. vers.
+85	arXiv	https://arxiv.org/pdf/1606.08318.pdf	1	Low Temperature Physics	https://doi.org/10.1063/1.4974185	1				ru	
+86	arXiv	https://arxiv.org/pdf/1204.6434v1.pdf	1	Memoirs of the American Mathematical Society	http://dx.doi.org/10.1090/memo/1101	1				ru	both versions mention further Russian originals in passing but only make bibliographic reference to translation
+87	arXiv	https://arxiv.org/pdf/1710.09481.pdf	1	Random Matrices: Theory and Applications	https://doi.org/10.1142/s2010326321500027	1				ru	
+88	arXiv	https://arxiv.org/pdf/1508.00542.pdf	2	Electronic Journal of Combinatorics	https://doi.org/10.37236/5459	2				hu/cs	
+89	arXiv	https://arxiv.org/pdf/1207.3436.pdf	6	Topology and its Applications	https://doi.org/10.1016/j.topol.2012.07.006	6				uk	
+90	arXiv	https://arxiv.org/pdf/1701.05295.pdf	1	Journal of Dynamics and Differential Equations	https://doi.org/10.1007/s10884-018-9648-0	1				ru	
+91	arXiv	https://arxiv.org/pdf/1610.06397.pdf	1	EPJ Web of Conferences	https://doi.org/10.1051/epjconf/201716407019	1				ru	
+92	arXiv	https://arxiv.org/pdf/1105.2397.pdf	1	ACM Transactions on Algorithms	https://doi.org/10.1145/2071379.2071382	1				he	
+93	arXiv	https://arxiv.org/pdf/nlin/0605009.pdf	1	Foundations of Computational Mathematics	https://doi.org/10.1007/s10208-008-9039-8	1				ru	
+94	arXiv	https://arxiv.org/pdf/1809.03939.pdf	1	Journal of Dynamic Systems Measurement and Control-transactions	https://doi.org/10.1115/1.4043703	1				ja	
+95	arXiv	https://arxiv.org/pdf/0710.3078.pdf	1	Selecta Mathematica	https://doi.org/10.1007/s00029-009-0005-3	1				ja	
+96	arXiv	https://arxiv.org/pdf/1901.01689.pdf	1	Annali di Matematica Pura ed Applicata	https://doi.org/10.1007/s10231-019-00924-y	1				de	
+97	arXiv	https://arxiv.org/pdf/1207.5874.pdf	2	Journal of Differential Equations	https://doi.org/10.1016/j.jde.2013.04.014	2				ru	
+98	arXiv	https://arxiv.org/pdf/math/0611417.pdf	1	SIAM Journal on Numerical Analysis	https://doi.org/10.1137/080727555	1				fr	
+99	arXiv	https://arxiv.org/pdf/1307.4627.pdf	1	Abstract and Applied Analysis	https://doi.org/10.1155/2013/723040	1				ru	
+100	arXiv	https://arxiv.org/pdf/1504.05841.pdf	1	Journal of Mathematical Analysis and Applications	https://doi.org/10.1016/j.jmaa.2016.08.034	1				ru	
