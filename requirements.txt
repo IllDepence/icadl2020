@@ -8,3 +8,5 @@ tabulate
 iso639
 scipy
 langdetect
+beautifulsoup4
+lxml
